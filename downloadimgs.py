@@ -44,7 +44,7 @@ def save_imgs(img_addrs):
             img=open_url("http://www.niwaka.com"+each)
             f.write(img)
 
-# 下载图片
+# 下载图片测试
 # folder 文件夹前缀名
 # pages 爬多少页的资源，默认只爬10页
 def download_imgs(folder='niwaka'):
